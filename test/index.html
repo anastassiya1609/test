@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changan Auto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__nav ">
+            <div class="container flex-box  flex-box_items-center flex-box_contnet-between">
+                <div class="header__logo flex-box  flex-box_items-center">
+                    <img src="./assets/images/logo.svg" alt="" class="site-logo">
+                </div>
+                <div class="flex-box flex-box_items-center">
+                    <ul class="menu">
+                        <li class="menu__item"><a class="menu__link" href="#">Автомобили в наличии</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Спецпредложения</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Продать авто</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Сервис</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+                    </ul>
+                    <button class="call-button">Заказать звонок</button>
+                    <a href="#" class="burger-menu-button" id="burger-menu"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="header__info">
+            <div class="container flex-box  flex-box_items-center flex-box_contnet-between">
+                <div class="header__info__location flex-box flex-box_items-center">
+                    <div class="header__info__item">
+                        <img class="header__info__item__icon" src="./assets/images/icons/map.svg" />
+                        <p class="header__info__item__text">
+                            Олимпийский просп., 5, стр. 1, Москва
+                        </p>
+                    </div>
+                    <div class="header__info__item">
+                        <img class="header__info__item__icon" src="./assets/images/icons/fly.svg" />
+                        <a class="header__info__item__text">
+                            Проложить маршрут
+                        </a>
+                    </div>
+                </div>
+                <div class="header__info__schedule">
+                    <div class="header__info__item">
+                        <img class="header__info__item__icon" src="./assets/images/icons/watch.svg" />
+                        <a class="header__info__item__text">
+                            9:00 - 21:00 (ежедневно)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <section>
+        <div class="container">
+            <h2 class="page__subtitle">
+                Теперь услуги дилерского центра Вы можете можете получить онлайн!
+            </h2>
+
+            <div class="service-cards">
+                <div class="service-cards__item service-cards__item_large service-cards__item_diagnostic">
+                    <div class="service-cards__item__content service-cards__item__content_diagnostic">
+                        <h3 class="service-cards__item__title">
+                            Диагностика автомобиля <br />
+                            перед покупкой
+                        </h3>
+                        <p class="service-cards__item__subtitle">
+                            Расскажем обо всех скрытых дефектах автомобиля с пробегом
+                        </p>
+
+                        <button class="service-cards__item__button">Записаться</button>
+                    </div>
+
+                    <img src="./assets/images/service-cards/diagnostic-cars.png" alt="diagnostic-car"
+                        class="service-cards__image service-cards__image_diagnostic">
+
+                </div>
+                <div class="service-cards__item service-cards__item_show">
+                    <div class="service-cards__item__content service-cards__item__content_show">
+                        <h3 class="service-cards__item__title">
+                            Онлайн показ автомобиля по видеосвязи
+                        </h3>
+                        <p class="service-cards__item__subtitle">
+                            Проведем онлайн-показ интересующего автомобиля в удобное для Вас время
+                        </p>
+
+                        <button class="service-cards__item__button">Оставить заявку</button>
+                    </div>
+                    <img src="./assets/images/service-cards/show-car.png" alt="show-car"
+                        class="service-cards__image service-cards__image_show">
+
+                </div>
+                <div class="service-cards__item service-cards__item_reservation">
+                    <div class="service-cards__item__content service-cards__item__content_reservation">
+                        <h3 class="service-cards__item__title">
+                            Онлайн бронирование
+                        </h3>
+                        <p class="service-cards__item__subtitle">
+                            Забронируйте понравившийся автомобиль без визита в дилерский центр
+                        </p>
+
+                        <button class="service-cards__item__button">Забронировать</button>
+                    </div>
+                    <img src="./assets/images/service-cards/reservation-car.png" alt="show-car"
+                        class="service-cards__image service-cards__image_reservation">
+                </div>
+                <div class="service-cards__item service-cards__item_grade service-cards__item_large">
+                    <div class="service-cards__item__content service-cards__item__content_grade">
+                        <h3 class="service-cards__item__title">
+                            Онлайн оценка автомобиля с пробегом
+                        </h3>
+                        <p class="service-cards__item__subtitle">
+                            Узнайте предварительную стоимость автомобиля за 1 мин, указав его параметры
+                        </p>
+
+                        <button class="service-cards__item__button">Оценить</button>
+                    </div>
+                    <img src="./assets/images/service-cards/grade-car.png" alt="show-car"
+                        class="service-cards__image service-cards__image_grade">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="./assets/js/index.js" ></script>
+</body>
+
+</html>
